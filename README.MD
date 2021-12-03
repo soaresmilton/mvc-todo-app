@@ -17,6 +17,8 @@ Apesar de ser responsável pelas funções de CRUD, é importante notar que o MO
 
 ### View
 
+O View é o responsável pela nossa interface e é nessa classe que iremos construir todo o frontend que dará vida a aplicação. A View lida diretamente com a manipulação da DOM para criar a interface UI do usuário.
 
+É importante destacar que nem o Model e nem o Controller devem saber sobre algum aspecto da DOM. Todo o aspecto visual está inteiramente focado na View.
 
 ### Controller
