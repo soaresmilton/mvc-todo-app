@@ -22,3 +22,5 @@ O View é o responsável pela nossa interface e é nessa classe que iremos const
 É importante destacar que nem o Model e nem o Controller devem saber sobre algum aspecto da DOM. Todo o aspecto visual está inteiramente focado na View.
 
 ### Controller
+
+Por fim, vamos ao **controller**. O Controller tem objetivo de fazer o link entre o Model (os dados da aplicação) e o View (o front-end da aplicação). É importante destacar que o Controller não possui informações às regras de negócio ou às instruções da tela da aplicação. O Controller, intuitivamente, controla como o app funcionará, deacordo com seu Model de dados e sua interface de uso.
